@@ -1,0 +1,122 @@
+main {
+    background-color:white;
+    margin: auto;
+    font-family: Verdana;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 1000px;
+    gap: 20px;
+    background-color:#eff5f5;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background: color #eff5f5;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: color #3f3f3f;;
+
+  }
+  h1{
+    color:#497174;
+  }
+  p{
+    color:#497174;
+  }
+  
+  nav li a{
+    display:block;
+    color: #497174;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  .name nav a{
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  nav li a:hover {
+    background-color:#acc6bf;
+  
+    }
+    .profile
+    {
+        padding:30px;
+        margin:auto;
+    }
+    .about h1
+    {
+        font-size: 50px;
+
+    }
+    .mission{
+        text-align: center;
+        color: #497174;
+    }
+
+    
+      
+     
+      .side {
+        float: left;
+        width: 15%;
+        margin-top:10px;
+        color: #497174;
+      }
+      
+      .middle {
+        margin-top:10px;
+        float: left;
+        width: 70%;
+      }
+      
+      .right {
+        text-align:left;
+      }
+      
+     
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+      .bar-container {
+        width: 80%;
+        background-color: #497174;
+        text-align: center;
+        color: white;
+      }
+      
+     
+      .bar-5 {width: 60%; height: 18px; background-color: #eb6440;}
+      .bar-4 {width: 30%; height: 18px; background-color: #eb6440;}
+      .bar-3 {width: 10%; height: 18px; background-color: #eb6440;}
+      .bar-2 {width: 15%; height: 18px; background-color: #eb6440;}
+      .bar-1 {width: 4%; height: 18px; background-color: #eb6440;}
+
+      footer{
+        background-color:#497174;
+        padding: 10px;
+        text-align: center;
+        
+       
+      }
+      

@@ -1,0 +1,117 @@
+main {
+    background-color:white;
+    margin: auto;
+    font-family: Verdana;
+    
+    
+  }
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#497174;
+
+  }
+  
+  nav li a{
+    display:block;
+    color: #eff5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  
+
+  nav li a:hover {
+    background-color:#71938a;}
+
+ 
+
+
+  div.gallery span
+  {
+    position:absolute;left:-600px;
+  }
+  div.gallery a:hover span
+  {
+    position:absolute;
+    top:180px; left:700px;
+    text-align: center;
+  }
+  #details {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  #details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #497174;
+    color: white;
+  }
+  
+  .button {
+    border-radius: 10px;
+    border:none;
+    background-color: #497174;
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor:pointer;
+    margin: 150px;
+    float:center;
+    
+  }
+  .button a {
+    border-radius: 10px;
+    border:none;
+    background-color: #497174;
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor:pointer;
+    margin: 150px;
+    
+    
+  }
+  
+  .button  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button:hover  span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  footer{
+    background-color:#497174;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  

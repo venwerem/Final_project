@@ -1,0 +1,102 @@
+main {
+    background-color:white;
+    margin: auto;
+    font-family: Verdana;
+  }
+
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#497174;
+
+  }
+  
+  nav li a{
+    display:block;
+    color: #eff5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  
+
+  nav li a:hover {
+    background-color:#71938a;}
+
+ 
+    .container {
+        border-radius: 5px;
+        background-color: #eff5f5;
+        padding: 20px;
+      }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #71938a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=tel]
+  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#71938a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+  input[type=email]
+  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#71938a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+  
+  input[type=submit] {
+    background-color: #497174;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #71938a;
+  }
+
+  .li-radio{
+    margin-right: 200px;
+}
+
+h2{
+    text-align: center;
+    color:#497174;
+  }
+footer{
+    background-color:#497174;
+    padding: 10px;
+    text-align: center;
+   
+  }
+
+  
+  
+  
